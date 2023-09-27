@@ -1,0 +1,29 @@
+.products{
+    padding: 50px 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.result-search{
+    padding: 120px 20px 0px;
+}
+
+.result-search h2 {
+    white-space: nowrap;
+    color: #6e6e6e;
+    align-items: start;
+    justify-content: start;
+}
+.result-search h2::first-letter{
+    text-transform: uppercase;
+}
+
+ span{
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.itemsZero{
+    font-size: medium;
+    font-weight: bold;
+}
