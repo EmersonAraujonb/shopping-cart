@@ -34,7 +34,7 @@ const Products = () => {
     return (
         <section className='container'>
             <div className='result-search'>
-               {resultSearch && <h2 className='container  result-text'> Resultados de pesquisa para: {resultSearch}</h2>}
+               {resultSearch && <h2 className='container  result-text'> Resultados de pesquisa para: <span>{resultSearch}</span></h2>}
                <SelectBar/>
             </div>
             <div className='products container'>

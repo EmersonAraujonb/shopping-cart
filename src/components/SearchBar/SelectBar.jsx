@@ -4,6 +4,7 @@ import AppContext from '../../context/AppContext';
 import FecthCategoriesProducts from '../../api/fecthCategoriesProducts';
 import FecthCategories from '../../api/fecthCategories';
 import Select from 'react-select'
+import './SelectBar.css';
 
 const SelectBar = () => {
     const { setProducts, loading, setLoading, setResultSearch, categoriesProducts, setCategoriesProducts, searchValueCategory, setSearchValueCategory, isCartVisible } = useContext(AppContext)

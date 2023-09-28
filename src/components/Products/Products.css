@@ -9,16 +9,16 @@
 }
 
 .result-search h2 {
-    white-space: nowrap;
     color: #6e6e6e;
     align-items: start;
     justify-content: start;
 }
-.result-search h2::first-letter{
+.result-search h2 > span::first-letter{
     text-transform: uppercase;
+    text-transform: capitalize;
 }
 
- span{
+span{
     margin-bottom: 20px;
     color: #000;
 }
@@ -26,4 +26,14 @@
 .itemsZero{
     font-size: medium;
     font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .result-text{
+        font-size: 20px;
+        white-space: none;
+    } 
+    .result-search h2 {
+        margin-top: 5%;
+    }
 }
