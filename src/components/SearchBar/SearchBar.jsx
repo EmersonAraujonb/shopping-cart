@@ -7,7 +7,7 @@ import AppContext from '../../context/AppContext';
 import FecthTotalProducts from '../../api/fecthTotalProducts';
 
 const SearchBar = () => {
-    const { setProducts, setLoading, setResultSearch, setSearchValueCategory, setTotalCount, setOffset, setLimit } = useContext(AppContext);
+    const { setProducts, setLoading, setResultSearch, setTotalCount, setOffset, setLimit } = useContext(AppContext);
     const [searchValue, setSearchValue] = useState('');
     const handleSearch = async (e) => {
         e.preventDefault();
